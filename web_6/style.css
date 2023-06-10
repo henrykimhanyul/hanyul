@@ -1,0 +1,59 @@
+h1{
+    color: rgb(19, 19, 134);
+    text-align: center;
+    font-size: 85px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+ul, li{
+    list-style: none;
+}
+#welcome {
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    font-size: 50px;
+    border: 5px solid;
+    text-align: center;
+    width: fit-content;
+    display: block;
+}
+#welcome:hover{
+    color: white;
+    background-color: black;
+    transition: 2s;
+}
+
+.menu_sub{
+    display: none;
+}
+
+.menu_main > li {
+    display: inline-block;
+    width: 150px;
+    background-color: aquamarine;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.menu_main{
+    font-size: 0;
+}
+
+.menu_top{
+    width: 490px;
+    margin: 0 auto;
+}
+
+.menu_main > li >a {
+    display: block;
+    padding: 10px 0;
+}
+
+.menu_main > li:hover > .menu_sub{
+    display: block;
+}
