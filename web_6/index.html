@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
     <title>율이의 취미 스토리</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
 </head>
+<script>
+    function a() {
+        alert("로그인이 필요합니다.")
+    }
+</script>
+<script>
+    function b() {
+        alert("회원가입 페이지로 이동합니다.")
+       location.href="singup.html"
+    }
+</script>
+<script>
+    function c() {
+        alert("메인 페이지로 이동합니다.")
+        location.href="main.html"
+    }
+</script>
 <body>
 <h1>율이의 취미 스토리</h1>
-<h1><a id="welcome" href="main.html" target="_blank">방문하신 걸 환영해요!</a></h1>
+<h1><button onclick="a()">방문하신 걸 환영해요!</button></h1>
+<h5>아이디, 비밀번호를 입력하세요</h5>
+<p>아이디:<input type="text"  />
+</p>
+<p> 비밀번호:<input type="text" />
+</p>
+<button onclick="b()">회원가입</button>
+<button onclick="c()">로그인</button>
+
 </body>
 </html>
